@@ -44,6 +44,8 @@ public class Dish {
         Map<DishTypeEnum, Optional<Dish>> map = dishes
                 .stream()
                 .collect(Collectors.groupingBy(Dish::getDishType, Collectors.maxBy(Comparator.comparing(Dish::getCalorie))));
+
+        System.out.println("");
     }
 
 }
