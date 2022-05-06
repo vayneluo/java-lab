@@ -14,7 +14,7 @@ import java.util.function.Function;
  * @author: Lattice
  * @date 2022/1/20 14:01
  */
-@Service
+//@Service
 public class QueryService {
 
     @Autowired

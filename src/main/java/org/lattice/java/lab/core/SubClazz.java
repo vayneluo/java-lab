@@ -1,19 +1,29 @@
 package org.lattice.java.lab.core;
 
+import lombok.Data;
+
 /**
  * @description: TODO
  * @author: Lattice
  * @date 2022/2/17 08:36
  */
+@Data
 public class SubClazz extends ParentClazz{
 
-    /*public SubClazz() {
-        super();
-    }*/
+    private int age;
 
+    private String name;
 
-    public static void main(String[] args) {
-        SubClazz subClazz = new SubClazz();
+    public SubClazz() {
+    }
+
+    private SubClazz(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+
+    public SubClazz(String name) {
+        this.name = name;
     }
 }
 

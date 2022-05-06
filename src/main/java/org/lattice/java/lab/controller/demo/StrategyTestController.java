@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
  * @author: Lattice
  * @date 2022/1/20 14:12
  */
-@RestController
+//@RestController
 public class StrategyTestController {
 
-    @Autowired
+    //@Autowired
     QueryService queryService;
 
     @GetMapping(value = "/rules/{reqId}")
