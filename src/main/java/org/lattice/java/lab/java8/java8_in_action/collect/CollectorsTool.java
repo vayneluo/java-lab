@@ -16,8 +16,8 @@ public class CollectorsTool {
 
 
     public static void main(String[] args) {
-        List<Dish> dishes = Dish.DISHES;
+        /*List<Dish> dishes = Dish.DISHES;
         List<String> dishList = dishes.stream().map(Dish::getName).collect(Collectors.toList());
-        System.out.println(dishList);
+        System.out.println(dishList);*/
     }
 }

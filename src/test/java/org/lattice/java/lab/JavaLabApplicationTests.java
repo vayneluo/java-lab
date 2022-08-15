@@ -1,3 +1,4 @@
+/*
 package org.lattice.java.lab;
 
 import me.lattice.pojo.SimpleBean;
@@ -20,3 +21,4 @@ class JavaLabApplicationTests {
     }
 
 }
+*/
