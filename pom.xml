@@ -39,11 +39,27 @@
             <version>5.4.3</version>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>me.lattice</groupId>
             <artifactId>lab-spring-boot-starter</artifactId>
             <version>1.0.0-SNAPSHOT</version>
+        </dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.79.Final</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.rholder/guava-retrying -->
+        <dependency>
+            <groupId>com.github.rholder</groupId>
+            <artifactId>guava-retrying</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
