@@ -1,0 +1,10 @@
+package org.lattice.java.lab.core.designpatterns.create.factory;
+
+/**
+ * @description:
+ * @author: lattice
+ * @date: 2023/2/24 5:19 PM
+ */
+public interface AbstractProductA {
+    void methodA();
+}
